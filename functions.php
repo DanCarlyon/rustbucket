@@ -60,5 +60,6 @@ function rustbucket_widgets_init() {
 		'before_title' => '<h3 class="widget-title">',
 		'after_title' => '</h3>',
 	) );
+    
 }
 add_action( 'widgets_init', 'rustbucket_widgets_init' );

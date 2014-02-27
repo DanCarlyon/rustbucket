@@ -22,14 +22,19 @@ Use it to make something cool, have fun, and share what you've learned with othe
  * 
  * */
 
+
+/*Global Stuff*/
+
 body { margin:0; }
+
+.clear { clear:both; float:none; }
 
 /*.top-bar { width:100%; float:left; }
 .top-bar .top-wrapper { margin:0 auto; width:960px; }
 .top-bar .top-wrapper span { float:left; color:black; }*/
 
 header#masthead {
-	height:120px;
+	height:90px;
 }
 
 .site-header hgroup {
@@ -82,4 +87,21 @@ header#masthead {
 .site-header hgroup div.logo-menu-wrapper .middle h1.site-title { width: 190px; float: left; }
 .site-header hgroup div.logo-menu-wrapper .middle .main-navigation { float: right; max-width:750px; margin-top:65px; }
 
+.site-title a { text-decoration:none; color:#B7400E; font-size:24px; font-weight:bold; }
+
 #page { width:960px; margin:0 auto; border-radius:3px; background-color:#F1F1F1;}
+#page .wrapper { font-size:14px; color:#333333 }
+#page .wrapper p { padding:0 20px; }
+
+
+#page .block-wrapper { width:960px; margin:0 auto; padding:0; }
+#page .block-wrapper .block { width:25%; float:left; background-color:#F9F9F9; border-top:5px solid #b7400e; border-bottom:3px solid #b7400e; height:240px; }
+#page .block-wrapper .block span { padding:0 5px; float:left; }
+#page .block-wrapper .block span h3 { margin-bottom:0; padding-bottom:0; margin-top:10px; color:black; }
+
+
+
+
+
+
+
