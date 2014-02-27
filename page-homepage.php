@@ -29,12 +29,17 @@ get_header(); ?>
         <div class="block left">
             <span>
                 <h3>Server Information</h3>
-                Current server information, including server name, players online and map name.
-                <br /><br />
-                00.000.000.000:00000<br />
-                RustBucket UK/EU<br />
-                rust_island_2013<br />
-                13/100 Players online
+                <br />
+                <?php
+                $server = file_get_contents('http://www.realsnipers.com/server/index.php');
+                $sdata = json_decode($server);
+                echo $sdata->serverip.':'.$sdata->serverport.'<br />';
+                echo $sdata->servername.'<br />';
+                echo $sdata->map.'<br />';
+                echo '<img src="http://www.realsnipers.com/server/img/'.$sdata->map.'.jpg" style="width:200px;" /><br />';
+                echo $sdata->playercount.'/'.$sdata->maxplayers.'<br />';
+                //var_dump($sdata);
+                ?>               
             </span>
         </div>
         <div class="block center-left">
