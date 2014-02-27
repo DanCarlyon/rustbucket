@@ -25,7 +25,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 /*Global Stuff*/
 
-body { margin:0; }
+body { margin:0; font-family:"HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue", Helvetica, Arial,"Lucida Grande", sans-serif; font-weight:300; }
 
 .clear { clear:both; float:none; }
 
