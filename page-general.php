@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Page - Homepage
+ * Template Name: Page - General
  *
  * @package WordPress
  * @subpackage Rust_Bucket
