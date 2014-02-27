@@ -37,7 +37,7 @@ get_header(); ?>
                 echo $sdata->servername.'<br />';
                 echo $sdata->map.'<br />';
                 echo '<img src="http://www.realsnipers.com/server/img/'.$sdata->map.'.jpg" style="width:200px;" /><br />';
-                echo $sdata->playercount.'/'.$sdata->maxplayers.'<br />';
+                echo $sdata->playercount.'/'.$sdata->maxplayers.' Players Online<br />';
                 //var_dump($sdata);
                 ?>               
             </span>
@@ -61,9 +61,9 @@ get_header(); ?>
             <span>
                 <h3>Vote for Us</h3>
                 Please vote for us to help grow the server and community.<br />
-                [Vote button]<br />
-                [Vote button]<br />
-                [Vote button]<br /><br />
+                <script src="http://rust-servers.net/embed.js?id=205&type=votes&size=small"></script><br />
+                <br />
+                <a href="http://toprustservers.com/server/9352" title="Vote for Rust-Bucket[UK]"><img src="http://static.toprustservers.com/hosted/250-100new.gif" style='width:200px;'></a><br /><br />
                 Please also consider donating to help keep the server and website running.
                 [Donate Button]
             </span>
