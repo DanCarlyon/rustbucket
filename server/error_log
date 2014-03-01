@@ -1,0 +1,65 @@
+[23-Feb-2014 10:04:01] PHP Warning:  require_once(STEAM_CONDENSER_PATHsteam/servers/GameServer.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/danny1/public_html/rustbucket.eu/server/lib/steam/servers/GoldSrcServer.php on line 11
+[23-Feb-2014 10:04:01] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'STEAM_CONDENSER_PATHsteam/servers/GameServer.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home1/danny1/public_html/rustbucket.eu/server/lib/steam/servers/GoldSrcServer.php on line 11
+[23-Feb-2014 10:06:48] PHP Warning:  require_once(STEAM_CONDENSER_PATHsteam/servers/GameServer.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/danny1/public_html/rustbucket.eu/server/lib/steam/servers/GoldSrcServer.php on line 11
+[23-Feb-2014 10:06:48] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'STEAM_CONDENSER_PATHsteam/servers/GameServer.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home1/danny1/public_html/rustbucket.eu/server/lib/steam/servers/GoldSrcServer.php on line 11
+[23-Feb-2014 10:06:51] PHP Warning:  require_once(STEAM_CONDENSER_PATHsteam/servers/GameServer.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/danny1/public_html/rustbucket.eu/server/lib/steam/servers/GoldSrcServer.php on line 11
+[23-Feb-2014 10:06:51] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'STEAM_CONDENSER_PATHsteam/servers/GameServer.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home1/danny1/public_html/rustbucket.eu/server/lib/steam/servers/GoldSrcServer.php on line 11
+[23-Feb-2014 10:07:26] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home1/danny1/public_html/rustbucket.eu/server/lib/steam/servers/GameServer.php on line 158
+[23-Feb-2014 10:07:26] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home1/danny1/public_html/rustbucket.eu/server/lib/steam/servers/GameServer.php on line 158
+[23-Feb-2014 10:07:26] PHP Parse error:  syntax error, unexpected T_STRING in /home1/danny1/public_html/rustbucket.eu/server/lib/steam/servers/GameServer.php on line 158
+[23-Feb-2014 10:20:21] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home1/danny1/public_html/rustbucket.eu/server/lib/steam/servers/GameServer.php on line 158
+[23-Feb-2014 10:20:21] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home1/danny1/public_html/rustbucket.eu/server/lib/steam/servers/GameServer.php on line 158
+[23-Feb-2014 10:20:21] PHP Parse error:  syntax error, unexpected T_STRING in /home1/danny1/public_html/rustbucket.eu/server/lib/steam/servers/GameServer.php on line 158
+[23-Feb-2014 11:25:08] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home1/danny1/public_html/rustbucket.eu/server/lib/steam/servers/GameServer.php on line 158
+[23-Feb-2014 11:25:08] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home1/danny1/public_html/rustbucket.eu/server/lib/steam/servers/GameServer.php on line 158
+[23-Feb-2014 11:25:08] PHP Parse error:  syntax error, unexpected T_STRING in /home1/danny1/public_html/rustbucket.eu/server/lib/steam/servers/GameServer.php on line 158
+[23-Feb-2014 11:25:14] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home1/danny1/public_html/rustbucket.eu/server/lib/steam/servers/GameServer.php on line 158
+[23-Feb-2014 11:25:14] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home1/danny1/public_html/rustbucket.eu/server/lib/steam/servers/GameServer.php on line 158
+[23-Feb-2014 11:25:14] PHP Parse error:  syntax error, unexpected T_STRING in /home1/danny1/public_html/rustbucket.eu/server/lib/steam/servers/GameServer.php on line 158
+[23-Feb-2014 11:25:21] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home1/danny1/public_html/rustbucket.eu/server/lib/steam/servers/GameServer.php on line 158
+[23-Feb-2014 11:25:21] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home1/danny1/public_html/rustbucket.eu/server/lib/steam/servers/GameServer.php on line 158
+[23-Feb-2014 11:25:21] PHP Parse error:  syntax error, unexpected T_STRING in /home1/danny1/public_html/rustbucket.eu/server/lib/steam/servers/GameServer.php on line 158
+[23-Feb-2014 11:38:43] PHP Notice:  Sending packet of type "A2S_INFO_Packet"... in /home1/danny1/public_html/rustbucket.eu/server/lib/steam/sockets/SteamSocket.php on line 144
+[23-Feb-2014 11:38:43] PHP Warning:  socket_send() [<a href='function.socket-send'>function.socket-send</a>]: unable to write to socket [1]: Operation not permitted in /home1/danny1/public_html/rustbucket.eu/server/lib/Socket.php on line 163
+[23-Feb-2014 11:38:43] PHP Fatal error:  Uncaught exception 'SocketException' with message 'Operation not permitted (Code: 1)' in /home1/danny1/public_html/rustbucket.eu/server/lib/Socket.php:165
+Stack trace:
+#0 /home1/danny1/public_html/rustbucket.eu/server/lib/steam/sockets/SteamSocket.php(146): Socket->send('????TSource Eng...')
+#1 /home1/danny1/public_html/rustbucket.eu/server/lib/steam/servers/GameServer.php(365): SteamSocket->send(Object(A2S_INFO_Packet))
+#2 /home1/danny1/public_html/rustbucket.eu/server/lib/steam/servers/GameServer.php(395): GameServer->sendRequest(Object(A2S_INFO_Packet))
+#3 /home1/danny1/public_html/rustbucket.eu/server/lib/steam/servers/GameServer.php(249): GameServer->updatePing()
+#4 /home1/danny1/public_html/rustbucket.eu/server/index.php(6): GameServer->initialize()
+#5 {main}
+  thrown in /home1/danny1/public_html/rustbucket.eu/server/lib/Socket.php on line 165
+[23-Feb-2014 11:39:29] PHP Notice:  Sending packet of type "A2S_INFO_Packet"... in /home1/danny1/public_html/rustbucket.eu/server/lib/steam/sockets/SteamSocket.php on line 144
+[23-Feb-2014 11:39:29] PHP Warning:  socket_send() [<a href='function.socket-send'>function.socket-send</a>]: unable to write to socket [1]: Operation not permitted in /home1/danny1/public_html/rustbucket.eu/server/lib/Socket.php on line 163
+[23-Feb-2014 11:39:29] PHP Fatal error:  Uncaught exception 'SocketException' with message 'Operation not permitted (Code: 1)' in /home1/danny1/public_html/rustbucket.eu/server/lib/Socket.php:165
+Stack trace:
+#0 /home1/danny1/public_html/rustbucket.eu/server/lib/steam/sockets/SteamSocket.php(146): Socket->send('????TSource Eng...')
+#1 /home1/danny1/public_html/rustbucket.eu/server/lib/steam/servers/GameServer.php(365): SteamSocket->send(Object(A2S_INFO_Packet))
+#2 /home1/danny1/public_html/rustbucket.eu/server/lib/steam/servers/GameServer.php(395): GameServer->sendRequest(Object(A2S_INFO_Packet))
+#3 /home1/danny1/public_html/rustbucket.eu/server/lib/steam/servers/GameServer.php(249): GameServer->updatePing()
+#4 /home1/danny1/public_html/rustbucket.eu/server/index.php(7): GameServer->initialize()
+#5 {main}
+  thrown in /home1/danny1/public_html/rustbucket.eu/server/lib/Socket.php on line 165
+[23-Feb-2014 11:40:05] PHP Notice:  Sending packet of type "A2S_INFO_Packet"... in /home1/danny1/public_html/rustbucket.eu/server/lib/steam/sockets/SteamSocket.php on line 144
+[23-Feb-2014 11:40:05] PHP Warning:  socket_send() [<a href='function.socket-send'>function.socket-send</a>]: unable to write to socket [1]: Operation not permitted in /home1/danny1/public_html/rustbucket.eu/server/lib/Socket.php on line 163
+[23-Feb-2014 11:40:05] PHP Fatal error:  Uncaught exception 'SocketException' with message 'Operation not permitted (Code: 1)' in /home1/danny1/public_html/rustbucket.eu/server/lib/Socket.php:165
+Stack trace:
+#0 /home1/danny1/public_html/rustbucket.eu/server/lib/steam/sockets/SteamSocket.php(146): Socket->send('????TSource Eng...')
+#1 /home1/danny1/public_html/rustbucket.eu/server/lib/steam/servers/GameServer.php(365): SteamSocket->send(Object(A2S_INFO_Packet))
+#2 /home1/danny1/public_html/rustbucket.eu/server/lib/steam/servers/GameServer.php(395): GameServer->sendRequest(Object(A2S_INFO_Packet))
+#3 /home1/danny1/public_html/rustbucket.eu/server/lib/steam/servers/GameServer.php(249): GameServer->updatePing()
+#4 /home1/danny1/public_html/rustbucket.eu/server/index.php(7): GameServer->initialize()
+#5 {main}
+  thrown in /home1/danny1/public_html/rustbucket.eu/server/lib/Socket.php on line 165
+[23-Feb-2014 11:40:07] PHP Notice:  Sending packet of type "A2S_INFO_Packet"... in /home1/danny1/public_html/rustbucket.eu/server/lib/steam/sockets/SteamSocket.php on line 144
+[23-Feb-2014 11:40:07] PHP Warning:  socket_send() [<a href='function.socket-send'>function.socket-send</a>]: unable to write to socket [1]: Operation not permitted in /home1/danny1/public_html/rustbucket.eu/server/lib/Socket.php on line 163
+[23-Feb-2014 11:40:07] PHP Fatal error:  Uncaught exception 'SocketException' with message 'Operation not permitted (Code: 1)' in /home1/danny1/public_html/rustbucket.eu/server/lib/Socket.php:165
+Stack trace:
+#0 /home1/danny1/public_html/rustbucket.eu/server/lib/steam/sockets/SteamSocket.php(146): Socket->send('????TSource Eng...')
+#1 /home1/danny1/public_html/rustbucket.eu/server/lib/steam/servers/GameServer.php(365): SteamSocket->send(Object(A2S_INFO_Packet))
+#2 /home1/danny1/public_html/rustbucket.eu/server/lib/steam/servers/GameServer.php(395): GameServer->sendRequest(Object(A2S_INFO_Packet))
+#3 /home1/danny1/public_html/rustbucket.eu/server/lib/steam/servers/GameServer.php(249): GameServer->updatePing()
+#4 /home1/danny1/public_html/rustbucket.eu/server/index.php(7): GameServer->initialize()
+#5 {main}
+  thrown in /home1/danny1/public_html/rustbucket.eu/server/lib/Socket.php on line 165
