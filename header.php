@@ -64,8 +64,6 @@ $(function() {
     	<div class="logo-menu-wrapper">
 			<div class="middle">
 		        <span class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><img src="<?php echo get_template_directory_uri(); ?>/assets/rustbucket_mainlogo.png" class="logo" /></a></span>
-                <!-- <?php bloginfo( 'name' ); ?> -->
-		        <span class="site-description"><?php bloginfo( 'description' ); ?></span>
 	        </div>
 		</div>
     </hgroup>
