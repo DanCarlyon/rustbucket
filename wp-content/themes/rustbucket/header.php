@@ -64,15 +64,12 @@ $(function() {
     	<div class="logo-menu-wrapper">
 			<div class="middle">
 		        <span class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><img src="<?php echo get_template_directory_uri(); ?>/assets/rustbucket_mainlogo.png" class="logo" /></a></span>
+                <nav id="site-navigation" class="main-navigation" role="navigation">
+                    <?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
+                </nav>
 	        </div>
 		</div>
     </hgroup>
-
-    <nav id="site-navigation" class="main-navigation" role="navigation">
-        <h3 class="menu-toggle"><?php _e( 'Menu', 'rustbucket' ); ?></h3>
-        <a class="assistive-text" href="#content" title="<?php esc_attr_e( 'Skip to content', 'rustbucket' ); ?>"><?php _e( 'Skip to content', 'rustbucket' ); ?></a>
-        <?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
-    </nav>
 
     <?php if ( get_header_image() ) : ?>
         <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php header_image(); ?>" class="header-image" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>" alt="" /></a>
