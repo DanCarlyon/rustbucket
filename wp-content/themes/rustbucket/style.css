@@ -34,7 +34,7 @@ body { margin:0; font-family:"HelveticaNeue-Light","Helvetica Neue Light","Helve
 .top-bar .top-wrapper span { float:left; color:black; }*/
 
 header#masthead {
-	height:120px;
+	height:89px;
 }
 
 .site-header hgroup {
@@ -88,6 +88,8 @@ header#masthead {
 
 
 .site-header hgroup div.logo-menu-wrapper .middle .main-navigation { float: right; max-width:750px; margin-top:65px; }
+.site-header hgroup div.logo-menu-wrapper .middle .main-navigation ul { list-style:none; }
+.site-header hgroup div.logo-menu-wrapper .middle .main-navigation ul li { float:left; margin-left:5px; }
 
 .site-title a { text-decoration:none; color:#B7400E; font-size:24px; font-weight:bold; }
 .site-title a img.logo { height:100px; margin-top:-15px; }
