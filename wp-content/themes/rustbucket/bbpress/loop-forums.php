@@ -11,6 +11,7 @@
 
 <?php do_action( 'bbp_template_before_forums_loop' ); ?>
 
+<div class="two-thirds-width pull-left">
 <ul id="forums-list-<?php bbp_forum_id(); ?>" class="bbp-forums">
 
 	<li class="bbp-header">
@@ -43,5 +44,7 @@
 	</li><!-- .bbp-footer -->
 
 </ul><!-- .forums-directory -->
+</div>
 
+    
 <?php do_action( 'bbp_template_after_forums_loop' ); ?>

@@ -54,18 +54,18 @@ get_header(); ?>
 
             <?php
 				endwhile;
-				// Previous/next post navigation.
-				twentyfourteen_paging_nav();
-
+				
 			else :
 				// If no content, include the "No posts found" template.
 				get_template_part( 'content', 'none' );
 
 			endif;
 		?>
-
+        
+            
 		</div><!-- #content -->
 	</div><!-- #primary -->
+    <?php get_template_part('footer','blocks'); ?>
 	<?php get_sidebar( 'content' ); ?>
 </div><!-- #main-content -->
 

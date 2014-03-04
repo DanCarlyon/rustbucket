@@ -29,12 +29,21 @@ body { margin:0; font-family:"HelveticaNeue-Light","Helvetica Neue Light","Helve
 
 .clear { clear:both; float:none; }
 
+.pull-left { float:left; }
+.pull-right { float:right; }
+
+.full-width { width:100%; }
+.half-width { width:50%; }
+.one-third-width { width:30; }
+.two-thirds-width { width:70%; }
+.quart-width { width:25%; }
+
 /*.top-bar { width:100%; float:left; }
 .top-bar .top-wrapper { margin:0 auto; width:960px; }
 .top-bar .top-wrapper span { float:left; color:black; }*/
 
 header#masthead {
-	height:89px;
+	height:120px;
 }
 
 .site-header hgroup {
@@ -109,6 +118,6 @@ header#masthead {
 #page .main-content .content-area .site-content { padding:10px; }
 
 
-
+.bbp-breadcrumb { display:none; }
 
 
