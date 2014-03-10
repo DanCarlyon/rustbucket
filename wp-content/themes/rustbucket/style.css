@@ -25,7 +25,10 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 /*Global Stuff*/
 
-body { margin:0; font-family:"HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue", Helvetica, Arial,"Lucida Grande", sans-serif; font-weight:300; }
+body { margin:0; font-family:'Alegreya Sans SC',"HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue", Helvetica, Arial,"Lucida Grande", sans-serif; font-weight:300; }
+
+a { color:#B7400E; text-decoration:none; }
+a:hover { font-weight:bold; }
 
 .clear { clear:both; float:none; }
 
@@ -117,7 +120,18 @@ header#masthead {
 #page .main-content .content-area { float:left; width:100%; background-color:#F1F1F1; }
 #page .main-content .content-area .site-content { padding:10px; }
 
+/*
+
+BuddyPress
+*/
 
 .bbp-breadcrumb { display:none; }
 
+div.bbp-template-notice {  }
+div.bbp-template-notice.info {  }
 
+.bbp-header { background-color:#ABCAB1; font-size:16px; }
+
+.bbp-forum-info a, .bbp-forum-info p, .bbp-forum-info span, .bbp-forum-info div { font-size:14px; }
+
+.bbp-forum-topic-count { font-weight:600; font-size:14px; }
