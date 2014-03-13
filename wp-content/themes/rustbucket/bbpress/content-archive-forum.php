@@ -13,9 +13,10 @@
 
 	<?php if ( bbp_allow_search() ) : ?>
 
-		<div class="bbp-search-form">
+		<div class="sidebar one-third-width pull-right">
 
-			<?php bbp_get_template_part( 'form', 'search' ); ?>
+			<?php //bbp_get_template_part( 'form', 'search' ); ?>
+            <?php get_sidebar( 'forum-sidebar' ); ?>
 
 		</div>
 

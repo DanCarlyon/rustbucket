@@ -61,5 +61,15 @@ function rustbucket_widgets_init() {
 		'after_title' => '</h3>',
 	) );
     
+    register_sidebar( array(
+		'name' => __( 'Forum Sidebar', 'rustbucket' ),
+		'id' => 'forum-sidebar',
+		'description' => __( 'This is the forum sidebar only', 'rustbucket' ),
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget' => '</aside>',
+		'before_title' => '<h3 class="widget-title">',
+		'after_title' => '</h3>',
+	) );
+    
 }
 add_action( 'widgets_init', 'rustbucket_widgets_init' );
